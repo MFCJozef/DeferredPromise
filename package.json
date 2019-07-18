@@ -1,0 +1,12 @@
+{
+  "name": "deferred-promise",
+  "version": "0.0.0",
+  "description": "DeferredPromise",
+  "main": "DeferredPromise.js",
+  "author": {
+    "name": "Stijn Neels"
+  },
+  "dependencies": {
+    "deferred": "^0.7.11"
+  }
+}
