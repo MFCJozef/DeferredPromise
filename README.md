@@ -1,5 +1,8 @@
 # promised-deferred
 Joins @Medikoo's Deffered Library with something the default Promise library from NodeJS can read and interact with
+
+## Install
+Get the library in your project by doing `npm install promised-deferred`
 ## Usage
 The point of Promised Deferred is that you are able to create regular Node.JS promises, as well as use the functionality of Medikoo's Deferred library, being able to resolve a promise from **outside** a method or function. An example of an outside resolve _(possible through just using the Deferred library)_:
 ```js
