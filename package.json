@@ -1,11 +1,18 @@
 {
     "name": "promised-deferred",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "description": "promised-deferred is a library that joins Metikoos Deferred lib with the default Promise library",
     "main": "index.js",
-    "author": "Stijn Neels",
+    "author": {
+        "name": "Stijn Neels",
+        "email": "stijn.neels@fracarita.org"
+    },
     "dependencies": {
         "deferred": "^0.7.11"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sneels/promised-deferred"
     },
     "license": "ISC"
 }
