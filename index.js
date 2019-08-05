@@ -10,12 +10,15 @@ class PromisedDeferred {
      * */
     Promise() {
         var def = this.State;
-        return new Promise(function (resolve) {
+        return new Promise(function (resolve, reject) {
             var req = function () {
 
                 return def.promise.then(function (value) {
                     resolve(value);
-                });
+                },
+                    function (value) {
+                        reject(value)
+                    });
             }
             req();
         });
@@ -29,8 +32,8 @@ class PromisedDeferred {
         this.State.resolve(arg);
     }
 
-    Reject() {
-        this.State.reject();
+    Reject(arg) {
+        this.State.reject(arg);
     }
 }
 
