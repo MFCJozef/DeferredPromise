@@ -85,3 +85,12 @@ Promise.all(promises).then((values) => {
     }
 }
 ```
+
+## Alternative Use: medikoo's Deferred lib
+you can still choose to use the default medikoo's library with all it's functionality:
+```js
+const PromisedDeferred = require('promised-deferred');
+const Deffered = PromisedDeferred.Deferred();
+
+var deferred = new Deferred();
+```
