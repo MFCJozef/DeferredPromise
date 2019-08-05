@@ -1,6 +1,6 @@
 {
     "name": "promised-deferred",
-    "version": "2.0.4",
+    "version": "2.0.5",
     "description": "promised-deferred is a library that joins Metikoos Deferred lib with the default Promise library",
     "main": "index.js",
     "author": {
@@ -25,5 +25,6 @@
         "promises",
         "continuations"
     ],
- "homepage": "https://github.com/sneels/promised-deferred/blob/master/README.md",    "license": "ISC"
+    "homepage": "https://github.com/sneels/promised-deferred/blob/master/README.md",
+    "license": "ISC"
 }
